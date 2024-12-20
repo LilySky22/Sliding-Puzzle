@@ -6,3 +6,8 @@
 ### Issues:
 #### The game images wont show - Fixed? ✅
 #### The game wont leave a piece out in order to work - Fixed? ❌
+
+### Changes
+#### I gave up on the sliding uzzle idea and now you just swap 2 pieces to solve it
+#### Made it all hack club themed
+#### addded you wint text
