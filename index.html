@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,5 +11,14 @@
     <img id="title" src="./logo.png" alt="Puzzle Title">
     <div id="board"></div>
     <h1>Turns: <span id="turns">0</span></h1>
+
+    <!-- Win Modal -->
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeWinModal()">&times;</span>
+            <h2>You Won!</h2>
+            <p>Turns: <span id="winTurns"></span></p>
+        </div>
+    </div>
 </body>
 </html>
